@@ -1,0 +1,4 @@
+CairoSVG==2.9.1
+Pillow==13.0.0
+fonttools>=4.0
+# System: libharfbuzz0b. Fonts are included alongside this script.
