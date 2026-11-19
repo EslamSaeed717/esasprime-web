@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+        body {
+            background-color: #07090e;
+            color: #e2e8f0;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(0, 210, 255, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(58, 123, 213, 0.05) 0%, transparent 40%);
+        }
+        .glass-panel {
+            background: rgba(15, 19, 28, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(27, 34, 52, 0.8);
+        }
+        .hero-glow {
+            text-shadow: 0 0 30px rgba(0, 210, 255, 0.3);
+        }
+    
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+
+/* ESAS PRIME final vector identity */
+.brand-home{display:block;flex-shrink:0}.brand-logo{display:block;width:220px;max-width:100%;height:auto}@media(max-width:400px){.brand-logo{width:180px}}

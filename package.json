@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "3.4.19"
+  },
+  "name": "esasprime-web",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.cjs -i src/styles.css -o public/assets/site.css --minify",
+    "test": "node --test tests/site.test.mjs",
+    "verify": "npm run build && npm test"
+  }
+}

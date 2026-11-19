@@ -1,0 +1,21 @@
+{
+  "name": "ESAS PRIME",
+  "version": "2.0.0",
+  "arabic_display_name": "أساس برايم",
+  "descriptor": "Technologies",
+  "colors": {
+    "navy": "#040B2B",
+    "royal": "#0B2DAF",
+    "signal": "#276AFF",
+    "violet": "#891FF5",
+    "violet_light": "#A65BFF",
+    "white": "#FFFFFF",
+    "cloud": "#F4F6FC",
+    "ink": "#111827"
+  },
+  "logo_type": "custom outlined ESAS and PRIME",
+  "arabic_type": "Noto Kufi Arabic Bold outlined",
+  "embedded_clear_space": true,
+  "clear_space": "At least 0.25 of symbol ink height; supplied master padding already reserves this",
+  "size_guidance": "Use symbol/micro for small slots; test contextual reading. Horizontal suggested >=280 CSS px; inline >=320; these are implementation guidance, not a human-study certification."
+}
